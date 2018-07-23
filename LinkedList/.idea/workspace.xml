@@ -32,8 +32,8 @@
       <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="290">
+              <caret line="155" column="16" lean-forward="true" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="16" />
               <folding>
                 <element signature="e#624#625#0" expanded="true" />
                 <element signature="e#651#652#0" expanded="true" />
@@ -88,7 +88,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="655" />
     <option name="y" value="-13" />
     <option name="width" value="974" />
@@ -99,6 +99,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,9 +117,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -208,11 +208,12 @@
       <workItem from="1532057654290" duration="3897000" />
       <workItem from="1532062892283" duration="4475000" />
       <workItem from="1532223960263" duration="733000" />
+      <workItem from="1532318036271" duration="1454000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28774000" />
+    <option name="totallyTimeSpent" value="30228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -226,19 +227,19 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3296875" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32943678" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49946865" visible="true" weight="0.13187702" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49946865" visible="true" weight="0.13349515" />
       <window_info anchor="right" id="Database" order="3" weight="0.32942432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" sideWeight="0.5005314" side_tool="true" weight="0.12604167" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
+      <window_info id="Favorites" order="2" sideWeight="0.5005314" side_tool="true" weight="0.12604167" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="7" />
@@ -305,6 +306,26 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1392">
@@ -452,8 +473,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="290">
+          <caret line="155" column="16" lean-forward="true" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="16" />
           <folding>
             <element signature="e#624#625#0" expanded="true" />
             <element signature="e#651#652#0" expanded="true" />
