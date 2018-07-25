@@ -75,6 +75,7 @@ public class SegmentTree<E> {
         int leftTreeIndex = leftChild(treeIndex);
         int rightTreeIndex = rightChild(treeIndex);
 
+        // 后序遍历（访问完左右子树后返回）
         if (queryL >= mid + 1) {
             return query(rightTreeIndex, mid + 1, r, queryL, queryR);
         } else if (queryR <= mid) {
