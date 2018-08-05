@@ -57,6 +57,52 @@ public class Main {
 
             time = (endTime - startTIme) / 1000000000.0;
             System.out.println("AVL: " + time + " s");
+
+            // Test RBTree
+            startTIme = System.nanoTime();
+
+            RBTree<String, Integer> rbt = new RBTree<>();
+            for (String word :
+                    words) {
+                if (rbt.contains(word)) {
+                    rbt.set(word, rbt.get(word) + 1);
+                } else {
+                    rbt.add(word, 1);
+                }
+            }
+
+            for (String word :
+                    words) {
+                rbt.contains(word);
+            }
+
+            endTime = System.nanoTime();
+
+            time = (endTime - startTIme) / 1000000000.0;
+            System.out.println("RBTree: " + time + " s");
+
+            // Test HashTable
+            startTIme = System.nanoTime();
+
+            HashTable<String, Integer> ht = new HashTable<>(131071);
+            for (String word :
+                    words) {
+                if (ht.contains(word)) {
+                    ht.set(word, ht.get(word) + 1);
+                } else {
+                    ht.add(word, 1);
+                }
+            }
+
+            for (String word :
+                    words) {
+                ht.contains(word);
+            }
+
+            endTime = System.nanoTime();
+
+            time = (endTime - startTIme) / 1000000000.0;
+            System.out.println("HashTable: " + time + " s");
         }
     }
 }
